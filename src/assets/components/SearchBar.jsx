@@ -15,7 +15,7 @@ export default function SearchBar({ handleSearch }) {
 
     return (
         <>
-            <div className="container mt-1">
+            <div className="container mt-1 py-3 sticky-top">
                 <div className="row">
                     <form onSubmit={handleSubmit}>
                         <div className="input-group mb-3">

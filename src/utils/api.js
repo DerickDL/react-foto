@@ -8,7 +8,8 @@ export const searchPhotos = async (keyword) => {
     try {
         const response = await axios.get(BASE_URL + '/search/photos', {
             params: {
-                query: keyword
+                query: keyword,
+                per_page: 100
             },
             headers: {
                 Authorization: `Client-ID ${API_KEY}`
@@ -18,6 +19,4 @@ export const searchPhotos = async (keyword) => {
     } catch (err) { 
         console.error('Error fetching images: ', err);
     }
-    
 }
-
