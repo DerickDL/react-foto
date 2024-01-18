@@ -8,8 +8,11 @@ A simple Pexel-like web app built using React with Vite.
 1. **API Used:** Unsplash API
 2. **API Limitations:** Unsplash API has a limitation of 50 API calls per hour.
 3. **Features:**
-    - Currently, the app displays high-quality images fetched from Unsplash.
-    - Upcoming features include the ability to download images, load more images, and more.
+    - Displays high-quality images fetched from Unsplash.
+    - Ability to preview each image in a modal window
+    - Ability to download image in specific size
+4. **Upcoming Features:**
+    - Upcoming features include the ability to load more images, some designs improvement, and more.
 
 ## Local Setup
 - cd /react-foto
